@@ -14,12 +14,12 @@
   <!-- navigation bar -->
   <nav class="navbar">
     <div class="navbar-logo">
-      <img src="./gymimages/logo.png" width="300" />
+      <img src="./images/logo.png" width="300" />
     </div>
     <ul class="navbar-items">
-       <li>About Me</li>
-       <li>Journey</li>
-       <li>Goals</li>
+       <a href="#move"><li>About Me</li></a>
+       <a href="#drift"><li>Journey</li></a>
+       <a href="#shift"><li>Goals</li></a>
     </ul>
   </nav>
 
@@ -37,7 +37,7 @@
  
 
   <!-- testing myself -->
-  <div class="about1">
+  <div class="about1" id="move">
     <h2 class="head">About Me</h2>
     <div class="text">
       <h3>I'm a passionate web developer dedicated to creating engaging and user friendly websites.From the<br>
@@ -49,7 +49,7 @@
 
     <!-- coding journey -->
   <div id="coding-journey" class="journey">
-  <h2>Coding Journey</h2>
+  <h2 id="drift">Coding Journey</h2>
     <!-- journey list -->
   <div class="journey-list">
     <!-- manipulates the 3 -->
@@ -57,7 +57,7 @@
     <div id="intro" class="journey-card">
       <!-- intro to web development image -->
       <img
-        src="./gymimages/intro-to-web.png"
+        src="./images/intro-to-web.png"
         class="journey-image"
         alt="Course Image"
       />
@@ -72,7 +72,7 @@
 
     <div id="react" class="journey-card">
       <!-- manipulates the whole react -->
-      <img src="./gymimages/react.png" 
+      <img src="./images/react.png" 
       class="journey-image" 
       alt="Course Image" />
       <div>
@@ -84,7 +84,7 @@
     </div>
     <div id="backend" class="journey-card">
       <!-- manipulates the whole backend -->
-      <img src="./gymimages/backend.png" class="journey-image" alt="Course Image" />
+      <img src="./images/backend.png" class="journey-image" alt="Course Image" />
       <div>
         <h3>Back-end Development</h3>
         <p>
@@ -97,7 +97,7 @@
 </div>
 
   <!-- my goals testing -->
-  <div class="about2">
+  <div class="about2" id="shift">
     <h2 class="head">My Goals</h2>
     <div  class="text">
       <h3> I aspire to mentor and support other aspiring developers, sharing the knowledge and experience I've <br>
@@ -108,8 +108,8 @@
     </div>
   </div>
 
- <footer>
-   <p>Website Made With ❤️  By HIRWA Elysee</p>
+ <footer id="footer">
+   <p>Website Made With 🤍 From Kigali &copy <span id="year"></span></p>
  </footer>
 
   <script src="./script.js"></script>
