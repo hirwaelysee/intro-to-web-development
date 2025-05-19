@@ -9,5 +9,6 @@ function changeBackgroundColor(color){
     document.getElementById('backend').addEventListener('click',
          () => changeBackgroundColor("#9467BD"));
     
-
+const yearSpan = document.getElementById("year");
+yearSpan.textContent = new Date().getFullYear();
 
